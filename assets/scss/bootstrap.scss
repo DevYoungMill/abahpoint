@@ -1,0 +1,50 @@
+// Font
+$font-family-sans-serif: 'Sansation', sans-serif;
+
+// Colors
+$primary: #415fa7;
+$secondary: #10bcee;
+$dark: #0e2f80;
+$light: #f4f7fb;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: $primary;
+$navbar-dark-hover-color: $dark;
+
+// Buttons
+$btn-radius: 50px;
+$btn-padding-x: 30px;
+$btn-padding-y: 10px;
+
+$btn-border-radius: $btn-radius;
+$btn-border-radius-sm: $btn-radius;
+$btn-border-radius-lg: $btn-radius;
+$btn-padding-x: $btn-padding-x;
+$btn-padding-x-sm: $btn-padding-x;
+$btn-padding-x-lg: $btn-padding-x;
+$btn-padding-y: $btn-padding-y;
+$btn-padding-y-sm: $btn-padding-y;
+$btn-padding-y-lg: $btn-padding-y;
+$navbar-toggler-border-radius: 5px;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer * 1;
+
+$enable-negative-margins: true;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';

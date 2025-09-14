@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ABAH-Point</title>
+
+    <!-- TYPOGRAPHY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- ICONs -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-white shadow-sm px-3 px-lg-5"
+    >
+      <div class="container-fluid flex">
+        <a class="navbar-brand fw-bold text-primary" href="index.html"
+          >ABAH-Point</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center gap-3">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                <li><a class="dropdown-item" href="#">SEO Optimization</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="assets/pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assets/pages/contact.html"
+                >Contact us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="assets/pages/login.html"
+                class="btn btn-outline-primary btn-md mb-2 mb-lg-0 me-lg-2"
+                >Sign in</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="assets/pages/signup.html" class="btn btn-primary btn-md"
+                >Get Started</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTION: Hero -->
+    <header class="bg-light text-center py-5" id="section-hero">
+      <div class="container">
+        <div class="row text-center text-lg-start align-items-center">
+          <div class="col-lg-6">
+            <h1 class="fw-bold mb-0">ABAH-POINT</h1>
+            <p class="text-primary">All-In-One Bill Automated Hub</p>
+            <p class="lead">
+              Top up phone airtime or internet data. Pay electricity bills;
+              renew TV subscriptions. Buy quality insurance covers, pay
+              education bills, transfer funds and do more
+            </p>
+
+            <div
+              class="d-flex gap-5 mb-5 justify-content-center justify-content-lg-start"
+            >
+              <a
+                href="assets/pages/signup.html"
+                class="btn btn-primary btn-lg d-flex align-items-center gap-2 btn-custom"
+                ><ion-icon name="create-outline"></ion-icon> Sign Up</a
+              >
+              <a
+                href="assets/pages/login.html"
+                class="btn btn-primary btn-lg d-flex align-items-center gap-2 btn-custom"
+                ><ion-icon name="log-in-outline"></ion-icon>Login</a
+              >
+            </div>
+
+            <div class="more-info">
+              <h6 class="text-primary fw-bold mb-2">ADVANCE FEATURES</h6>
+              <div
+                class="d-flex gap-5 justify-content-lg-start justify-content-md-center features-gap"
+              >
+                <div class="features">
+                  <p class="fw-bold mb-0">Issue of Card</p>
+                  <p>Card type: Dollar Card</p>
+                </div>
+                <div class="features">
+                  <p class="fw-bold mb-0">Gift Cards</p>
+                  <p>Buying & Selling</p>
+                </div>
+                <div class="features">
+                  <p class="fw-bold mb-0">Flight Tickets</p>
+                  <p>Booking of Trips</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img src="assets/images/image-1.svg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION: Services -->
+    <section class="bg-white container py-5" id="services">
+      <div class="section-header">
+        <h2
+          class="text-primary text-center text-uppercase fw-bold heading-border"
+        >
+          Our Services
+        </h2>
+        <p class="lead text-center mb-5">
+          At <span class="text-primary fw-bold">ABAH-POINT</span> , we’re
+          redefining how you manage bills, payments, and digital services—all
+          from a single powerful platform.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 d-flex">
+          <div class="card shadow border-0 flex-fill card-border">
+            <div class="card-body d-flex flex-column">
+              <p class="card-title text-primary fw-bold mb-3">Buy Airtime</p>
+              <ul class="list-unstyled mb-0">
+                <li>MTN VTU</li>
+                <li>Glo VTU</li>
+                <li>Airtel VTU</li>
+                <li>9Mobile VTU</li>
+              </ul>
+
+              <div
+                class="d-flex justify-content-center align-items-center mt-auto text-primary"
+              >
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 d-flex">
+          <div class="card shadow border-0 flex-fill card-border">
+            <div class="card-body d-flex flex-column">
+              <p class="card-title text-primary fw-bold mb-3">Buy Data</p>
+              <ul class="list-unstyled mb-0">
+                <li>MTN Data</li>
+                <li>Glo Data</li>
+                <li>Airtel Data</li>
+                <li>9Mobile Data</li>
+                <li>SMILE Data</li>
+              </ul>
+              <div
+                class="d-flex justify-content-center align-items-center mt-auto text-primary"
+              >
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 d-flex">
+          <div class="card shadow border-0 flex-fill card-border">
+            <div class="card-body d-flex flex-column">
+              <p class="card-title text-primary fw-bold mb-3">Pay TV Subs</p>
+              <ul class="list-unstyled mb-0">
+                <li>GoTV</li>
+                <li>DSTV</li>
+                <li>Startimes</li>
+              </ul>
+              <div
+                class="d-flex justify-content-center align-items-center mt-auto text-primary"
+              >
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 d-flex">
+          <div class="card shadow border-0 flex-fill card-border">
+            <div class="card-body d-flex flex-column">
+              <p class="card-title text-primary fw-bold mb-3">
+                Pay Electricity Bill
+              </p>
+              <ul class="list-unstyled mb-0">
+                <li>PHED</li>
+                <li>AEDC</li>
+                <li>IKEDC</li>
+                <li>EKEDC</li>
+                <li>KEDCO</li>
+                <li>IBEDC</li>
+                <li>JEDplc</li>
+                <li>KAEDCO</li>
+              </ul>
+              <div
+                class="d-flex justify-content-center align-items-center mt-auto text-primary"
+              >
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 d-flex">
+          <div class="card shadow border-0 flex-fill card-border">
+            <div class="card-body d-flex flex-column">
+              <p class="card-title text-primary fw-bold mb-3">Insurance</p>
+              <ul class="list-unstyled mb-0">
+                <li>Third Party Motor</li>
+                <li>Health Insurance (HMO)</li>
+                <li>Home Cover</li>
+                <li>Personal Accident</li>
+              </ul>
+              <div
+                class="d-flex justify-content-center align-items-center mt-auto text-primary"
+              >
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-btn d-flex justify-content-center mt-5">
+        <a
+          href="#"
+          class="btn btn-primary btn-lg d-flex align-items-center gap-2 btn-custom"
+          ><ion-icon name="apps-outline"></ion-icon> Discover More
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION: Why -->
+    <section class="section-why bg-light py-5">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-primary text-center fw-bold heading-border">
+            Why ABAH-POINT
+          </h2>
+          <p class="lead text-center mb-5 font-reduce">
+            <span class="text-primary fw-bold">abahpoint.com</span>
+            is Nigeria’s top payment platform providing fast, easy online
+            payment solution for millions of people. We are impacting lives by
+            ensuring payments for day-to-day services you enjoy are stress-free.
+            With Abahpoint.com, you can perform quick transactions anytime and
+            anywhere using any device.
+          </p>
+        </div>
+
+        <div class="row why">
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img
+                src="assets/images/image-2.svg"
+                alt="Why Abahpoint image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-between why-features"
+          >
+            <div class="features">
+              <ion-icon
+                name="headset-outline"
+                class="text-dark"
+                style="width: 1.7rem; height: 1.7rem"
+              ></ion-icon>
+              <p class="fs-6 text-primary fw-bold mb-0">
+                Excellent Customer Support
+              </p>
+              <p class="fs-7">
+                Our well trained customer support agents are always available
+                24/7 to help you resolve any issues. We provide with multiple
+                ways to reach us and get fast help.
+              </p>
+            </div>
+            <div class="features">
+              <ion-icon
+                name="airplane-outline"
+                class="text-dark"
+                style="width: 1.7rem; height: 1.7rem"
+              ></ion-icon>
+              <p class="fs-6 text-primary fw-bold mb-0">
+                Fast Service Delivery
+              </p>
+              <p class="fs-7">
+                Enjoy prompt delivery of services purchased through VTpass.com.
+                Our promise to you is to deliver value for every transaction
+                made on-time, every time.
+              </p>
+            </div>
+            <div class="features">
+              <ion-icon
+                name="shield-half-outline"
+                class="text-dark"
+                style="width: 1.7rem; height: 1.7rem"
+              ></ion-icon>
+              <p class="fs-6 text-primary fw-bold mb-0">
+                Safe & Secured Payment
+              </p>
+              <p class="fs-7">
+                Payment on VTPass.com is fast and 100% secured. Enjoy seamless
+                payment processes with zero glitches. Pay with wallet, bank
+                transfer or card.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container mb-0">
+        <div class="row h-100 align-items-stretch">
+          <!-- Brand / Description -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex flex-column">
+            <h5 class="text-white mb-3">ABAH-Point</h5>
+            <p class="fs-6 text-secondary mb-0">
+              All-In-One Bill Automated Hub
+            </p>
+
+            <div class="footer-icons d-flex gap-3 mt-auto pt-3">
+              <a href="#" class="fs-5"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+              <a href="#" class="fs-5"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+              <a href="#" class="fs-5"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+              <a href="#" class="fs-5"
+                ><ion-icon name="logo-tiktok"></ion-icon
+              ></a>
+            </div>
+          </div>
+
+          <!-- Account -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <h5 class="text-white fw-bold mb-3">Account</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Create Account</a></li>
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">iOS app</a></li>
+              <li><a href="#">Android app</a></li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <h5 class="text-white fw-bold mb-3">Company</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Corporate News</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+
+          <!-- Help Center -->
+          <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <h5 class="text-white fw-bold mb-3">Help Center</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <p
+          class="border-top border-secondary mt-4 pt-3 mb-0 text-center text-light"
+        >
+          &copy;
+          <span class="text-secondary fw-bold" id="year"></span> ABAH-Point. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Rating Modal -->
+    <div class="custom-modal" id="ratingModal">
+      <div class="p-4">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="fw-bold text-primary mb-0">We value your feedback ⭐</h5>
+          <button class="btn-close" id="closeModal"></button>
+        </div>
+
+        <!-- Star Rating -->
+        <div class="d-flex justify-content-center mb-3" id="starRating">
+          <button class="star mx-1" data-value="1" title="Poor">
+            <ion-icon name="star-outline"></ion-icon>
+          </button>
+          <button class="star mx-1" data-value="2" title="Fair">
+            <ion-icon name="star-outline"></ion-icon>
+          </button>
+          <button class="star mx-1" data-value="3" title="Average">
+            <ion-icon name="star-outline"></ion-icon>
+          </button>
+          <button class="star mx-1" data-value="4" title="Good">
+            <ion-icon name="star-outline"></ion-icon>
+          </button>
+          <button class="star mx-1" data-value="5" title="Excellent">
+            <ion-icon name="star-outline"></ion-icon>
+          </button>
+        </div>
+
+        <!-- Feedback Form -->
+        <form id="feedbackForm">
+          <div class="mb-3">
+            <textarea
+              class="form-control border-primary"
+              rows="2"
+              placeholder="Tell us what you think about our new interface and services..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            Submit Feedback
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div id="thankYouModal" class="modal">
+      <div class="modal-content text-center p-4">
+        <p class="mb-0 text-success fw-bold">✅ Thanks for your feedback!</p>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="modalOverlay"></div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
