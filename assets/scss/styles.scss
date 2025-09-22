@@ -172,7 +172,11 @@ footer a:active {
   }
 
   .font-reduce {
-    font-size: 1rem;
+    font-size: 1rem !important;
+  }
+
+  .lead-sm {
+    font-size: 1.05rem !important;
   }
 }
 @media (max-width: 550px) {
@@ -196,6 +200,16 @@ footer a:active {
   #feedbackForm textarea {
     min-height: 50px;
     font-size: 0.85rem;
+  }
+
+  .align-start {
+    text-align: left !important;
+    padding: 2rem !important;
+  }
+
+  .justify-start {
+    justify-content: start !important;
+    gap: 2rem !important;
   }
 
   .star {
